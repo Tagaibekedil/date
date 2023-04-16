@@ -23,7 +23,6 @@ public class Account {
     public double getCurrency() {
         return currency;
     }
-
     public void setCurrency(double currency) {
         this.currency = currency;
     }

@@ -13,7 +13,6 @@ public class Main {
         Users users = new Users();
         Account account = new Account();
         DateTimeFormatter dateTimeFormatter=DateTimeFormatter.ofPattern("dd.MM.yyyy hh:mm");
-
         try (Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
              Statement stmt = conn.createStatement();
              ResultSet rs = stmt.executeQuery(QUERY)) {

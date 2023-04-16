@@ -76,7 +76,6 @@ public class Users {
     public void setGender(String gender) {
         this.gender = gender;
     }
-
     public String getCreated_dt() {
         return created_dt;
     }
